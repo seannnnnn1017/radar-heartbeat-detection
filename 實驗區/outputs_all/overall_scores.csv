@@ -1,7 +1,0 @@
-sample,MeanScore,BestScore,BestMethod
-sample_0,0.5,0.5,XCORR
-sample_1,0.3888888888888889,0.8333333333333334,Peaks+Drift
-sample_2,0.4444444444444444,0.6666666666666666,Peaks+Drift
-sample_3,0.5,0.5,XCORR
-sample_4,0.3888888888888889,0.8333333333333334,Peaks+Drift
-sample_5,0.3666666666666667,0.9,Peaks+Drift

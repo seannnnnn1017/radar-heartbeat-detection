@@ -1,0 +1,9 @@
+Method,HR_est_bpm,SNR_delta_dB,NMSE,SpecMainRatio,Spec2ndHarmRatio,SpectralFlatness,Coherence_at_HR,Score
+Baseline Bandpass,111.1111,4.4632,0.414,0.2978,0.0061,0.1356,1.0,4.7208
+BP + Notch @ rr & 2rr,111.1111,4.4489,0.4176,0.2966,0.0061,0.1304,1.0,4.6963
+Savitzky–Golay + BP,111.1111,3.8493,0.4865,0.3149,0.0036,0.1387,1.0,3.771
+STFT Spectral Subtraction + BP,111.1111,2.9822,0.5418,0.3676,0.0029,0.1475,1.0,2.7151
+Kalman → Bandpass,68.8889,2.5278,0.6943,0.5494,0.0259,0.1081,1.0,1.952
+Bandpass → Kalman,68.8889,1.5944,0.9193,0.5428,0.0246,0.1211,1.0,-0.1467
+ALE Adaptive Enhancer + BP,111.1111,0.39,1.1942,0.4383,0.0038,0.103,1.0,-2.9086
+SSA Band-Selected + BP,48.8889,-2.2697,1.7,0.3412,0.0263,0.0979,1.0,-8.2701
