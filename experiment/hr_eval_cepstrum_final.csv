@@ -1,0 +1,14 @@
+Method,MAE (bpm),RMSE (bpm),Bias (bpm)
+AMP → BP,4.3,8.4,0.8
+AMP → Wavelet,9.6,13.6,-2.1
+AMP → Median,12.9,17.0,-3.8
+BP → AMP,13.2,17.4,-6.7
+BP → Wavelet,13.8,18.1,-6.8
+BP → Median,13.8,18.1,-6.8
+Wavelet → BP,14.3,18.6,-7.0
+Wavelet → AMP,17.1,22.2,9.2
+Wavelet → Median,18.7,25.5,11.5
+Median → AMP,18.7,25.5,11.5
+Median → BP,18.8,26.2,11.5
+Median → Wavelet,18.9,26.3,11.2
+RAW,23.3,31.2,17.5

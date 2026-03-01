@@ -1,4 +1,8 @@
+.DS_Store
+.ipynb_checkpoints/
+
+實驗區/
+
 experiment/data/
 experiment/data(invole_high_hr)/
 experiment/experiment_simulated.ipynb
-實驗區/

@@ -1,0 +1,14 @@
+Method,MAE (bpm),RMSE (bpm),Bias (bpm)
+Raw_NoFilter,3.6,5.9,-0.3
+median_then_bp,20.8,28.4,-0.4
+bp_then_wavelet,21.4,34.1,6.1
+wavelet_then_bp,21.4,34.1,6.1
+median_then_wavelet,24.2,32.3,2.4
+wavelet_then_median,24.2,32.3,2.4
+bp_then_median,24.3,32.9,2.6
+median_then_amp,39.4,51.5,30.6
+amp_then_wavelet,41.6,59.0,35.1
+wavelet_then_amp,41.6,59.0,35.1
+amp_then_bp,42.4,59.9,35.1
+bp_then_amp,42.4,59.9,35.1
+amp_then_median,46.2,62.4,41.5
