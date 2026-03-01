@@ -1,17 +1,17 @@
 # Radar Heartbeat Detection
 
-This repository is organized as the journal-facing version of the mmWave heartbeat detection project.
-The private sandbox directory at the repository root is intentionally excluded from the documented scope and should be treated as exploratory workspace only.
+This repository contains the mmWave heartbeat detection project, including data, analysis notebooks, and selected output artifacts.
+The private sandbox directory at the repository root is intentionally excluded from the main project scope and should be treated as exploratory workspace only.
 
 ## Scope
 
 The repository currently preserves three public-facing areas:
 
-- `data/`: paired mmWave and ECG samples used for analysis.
+- `data/`: 182 sample folders, each containing paired mmWave (`mmv.csv`) and ECG (`1_1lead.csv`) signals used for analysis.
 - `experiment/`: notebooks and evaluation artifacts that reproduce the current analysis flow.
 - `outputs/`: representative exported figures and CSV summaries.
 
-The private sandbox directory is not part of the journal package and should not be referenced by reproducible workflows, figures, or documentation.
+The private sandbox directory is not part of the main repository workflow and should not be referenced by reproducible workflows, figures, or documentation.
 
 ## Recommended Use
 
@@ -33,13 +33,13 @@ radar-heartbeat-detection/
 |-- data/                # raw and paired measurement samples
 |-- experiment/          # reproducible notebooks and evaluation exports
 |-- outputs/             # selected generated figures / summary csv files
-|-- docs/                # repository conventions for the journal version
+|-- docs/                # repository conventions and cleanup notes
 |-- environment.yml      # conda environment definition
 |-- .gitignore
 `-- README.md
 ```
 
-Detailed cleanup rules and the target journal-facing structure are documented in `docs/REPO_STRUCTURE.md`.
+Detailed cleanup rules and the target repository structure are documented in `docs/REPO_STRUCTURE.md`.
 
 ## Current Notes
 
